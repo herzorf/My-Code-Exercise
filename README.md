@@ -8,4 +8,6 @@
 预览地址：https://1446450047.github.io/My-Code-Exercise/js-demo1/index.html
 # music-playe(我的播放器)
 预览地址：https://1446450047.github.io/My-Code-Exercise/music-player/index.html
+# html-iu(一个介绍人物的裸奔html页面)
+预览地址：https://1446450047.github.io/My-Code-Exercise/html-IU/index.html
 
