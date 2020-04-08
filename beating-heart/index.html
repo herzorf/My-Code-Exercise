@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>JS Bin</title>
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+      }
+      .wrap {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      #heart {
+        margin: 200px;
+        position: relative;
+        display: inline-block;
+        animation: putong 0.6s infinite alternate;
+      }
+      @keyframes putong {
+        from {
+          transform: scale(1);
+        }
+        to {
+          transform: scale(1.2);
+        }
+      }
+
+      .left {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        background-color: red;
+        bottom: 100%;
+        right: 100%;
+        transform: rotate(45deg) translateX(60px);
+        border-radius: 50% 0% 0% 50%;
+      }
+      .right {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        background-color: red;
+        bottom: 100%;
+        left: 100%;
+        transform: rotate(45deg) translateY(60px);
+        border-radius: 50% 50% 0% 0%;
+      }
+      .bottom {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        transform: rotate(45deg);
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="wrap">
+      <div id="heart">
+        <div class="left"></div>
+        <div class="right"></div>
+        <div class="bottom"></div>
+      </div>
+    </div>
+  </body>
+</html>
