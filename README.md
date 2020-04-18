@@ -14,3 +14,5 @@
 预览地址：https://1446450047.github.io/My-Code-Exercise/beating-heart/index.html
 # Drawing-board（一个简单的画板，可在移动端和PC端执行）
 预览地址：https://1446450047.github.io/My-Code-Exercise/Drawing-board/index.html
+# Dynamic-display-bagua（动态展示编写八卦）
+预览地址：https://1446450047.github.io/My-Code-Exercise/Dynamic-display-bagua/index.html
