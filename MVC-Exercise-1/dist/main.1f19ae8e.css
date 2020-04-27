@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+#container {
+  display: flex;
+  flex-wrap: wrap;
+}
+ul,
+ol {
+  list-style: none;
+}
+body {
+  overflow: hidden;
+}
+#container > session {
+  width: 50vw;
+  height: 50vh;
+}
+
+#app1 {
+  border: 1px solid red;
+  padding: 10px;
+}
+.output {
+  margin-bottom: 10px;
+}
+.action button {
+  width: 50px;
+  margin-right: 10px;
+  padding: 5px;
+}
+
+#app2 {
+  border: 1px solid red;
+}
+#app2 > .tabList {
+  border: 1px solid red;
+  display: flex;
+  height: 30px;
+}
+#app2 > .tabList > li {
+  border: 1px solid red;
+  width: 50%;
+}
+#app2 > .contentList > li.active {
+  display: block;
+}
+#app2 > .contentList > li {
+  display: none;
+}
+#app2 > .tabList > li.selector {
+  background-color: skyblue;
+}
+
+#app3 {
+  border: 1px solid red;
+}
+#app3 > .square {
+  width: 10vw;
+  height: 10vw;
+  border: 2px solid black;
+  transition: 1s;
+}
+#app3 > .square.active {
+  margin-left: 200px;
+  border-radius: 50%;
+}
+
+@keyframes changeColor {
+  0% {
+    background-color: red;
+  }
+  33.3% {
+    background-color: green;
+  }
+  66.6% {
+    background-color: blue;
+  }
+  100% {
+    background-color: black;
+  }
+}
+#app4 > .circle.active {
+  animation: changeColor 3s infinite alternate;
+}
+#app4 > .circle {
+  width: 15vw;
+  height: 15vw;
+  border: 2px solid grey;
+  border-radius: 50%;
+}
+
+
+/*# sourceMappingURL=/main.1f19ae8e.css.map */

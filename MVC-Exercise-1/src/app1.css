@@ -1,0 +1,12 @@
+#app1 {
+  border: 1px solid red;
+  padding: 10px;
+}
+.output {
+  margin-bottom: 10px;
+}
+.action button {
+  width: 50px;
+  margin-right: 10px;
+  padding: 5px;
+}

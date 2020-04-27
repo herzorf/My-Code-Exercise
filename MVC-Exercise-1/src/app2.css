@@ -1,0 +1,21 @@
+#app2 {
+  border: 1px solid red;
+}
+#app2 > .tabList {
+  border: 1px solid red;
+  display: flex;
+  height: 30px;
+}
+#app2 > .tabList > li {
+  border: 1px solid red;
+  width: 50%;
+}
+#app2 > .contentList > li.active {
+  display: block;
+}
+#app2 > .contentList > li {
+  display: none;
+}
+#app2 > .tabList > li.selector {
+  background-color: skyblue;
+}

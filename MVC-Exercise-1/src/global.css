@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+#container {
+  display: flex;
+  flex-wrap: wrap;
+}
+ul,
+ol {
+  list-style: none;
+}
+body {
+  overflow: hidden;
+}
+#container > session {
+  width: 50vw;
+  height: 50vh;
+}
